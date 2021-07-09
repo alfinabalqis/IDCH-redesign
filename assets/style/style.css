@@ -1,0 +1,468 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+    background-color: #ffff;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1,h2,h3,p{
+    color: #ffff;
+}
+
+.gradient{
+    -webkit-background-clip: text;
+    background-image: linear-gradient(314.65deg, #FD4DF6 -0.61%, #FDA14D 100%);
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffff;
+    font-size: 16px;
+}
+
+/*Button*/
+
+.btn{
+    color: #ffff;
+    font-weight: 700;
+    font-size: 14px;
+    height: 46px;
+    font-size: 15px;
+}
+
+.btn-utama{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.btn-server{
+    background: linear-gradient(314.65deg, #FD4DF6 -0.61%, #FDA14D 100%);
+    border-radius: 30px;
+    font-size: 13px;
+}
+
+.btn-cloud{
+    background-color: #3299FE;
+    border-radius: 8px;
+}
+
+.header{
+    position: relative;
+    display: block;
+    background: #000;
+}
+
+.header-background{
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+    background: linear-gradient(314.65deg, #3299FE, #FDA14D, #4D74FD, #FD4DEB, #854DFD, #4DFDF2);
+    background-size: 500% 500%;
+    -webkit-animation: ignielGradient 12s ease infinite;
+    -moz-animation: ignielGradient 12s ease infinite;
+    animation: ignielGradient 12s ease infinite;
+    height: 115vh;
+}
+
+@-webkit-keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.section-body{
+    color: #1B2C42;
+}
+
+.server{
+    background: #ffff;
+    margin-top: -6em !important;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.box{
+    border-radius: 15px;
+    margin: 0.25em;
+}
+
+.box p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 3em;
+}
+
+/*Server*/
+
+.server{
+    border: 1px solid #E5E9F2;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.server button{
+    width: 182px;
+    height: 36px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(314.65deg, #FD4DF6 -0.61%, #FDA14D 100%);
+    transition: 0.4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+}
+input:checked + .slider {
+    background-color: #6e6e6e;
+}
+input:focus + .slider {
+    box-shadow: 0 0 0 4px rgba(21, 156, 228, 0.7);
+    outline: none;
+}
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.header-server{
+    margin-left: 1em !important;
+}
+
+.paket-server{
+    box-shadow: 0px 16px 64px rgba(0, 7, 46, 0.04);
+    border-radius: 15px;
+    margin-bottom: 1em !important;
+}
+
+.paket-server-content{
+    margin-left: 3em !important;
+}
+
+.paket-server h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;letter-spacing: 0.05em;
+    color: #1B2C42;
+}
+
+.paket-server P{
+    margin: 0.5em 0 !important;
+}
+
+.paket-server p, .paket-server span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #8292A6;
+}
+
+.server-right{
+    margin-right: 2.5em !important;
+}
+
+.server-right p{
+    margin: 0.25em !important;
+}
+
+.price{
+    border-left: 1px solid #E5E9F2 !important;
+    margin-left: 2em !important;
+}
+
+.price h3{
+    padding-left: 2em !important;
+}
+
+.footer-server{
+    margin-left: 0.5em !important;
+}
+
+.footer-server span{
+    font-weight: 700;
+}
+
+.footer-server p{
+    color: #3B4859, 100%;
+}
+
+/*VPS*/
+
+.vps{
+    background: linear-gradient(314.65deg, #FD4DF6 -0.61%, #FDA14D 100%);
+    box-shadow: 0px 16px 64px rgba(0, 7, 46, 0.04);
+    border-radius: 15px;
+    height: 100px;
+    margin: 0.25em;
+}
+
+.vps p{
+    margin-left: 2em !important;
+}
+
+.vps span{
+    font-weight: 700;
+}
+
+/*Information box*/
+
+.box-info h2{
+    margin: 2em 1em 0 1em !important;
+}
+
+.box-info p{
+    margin: 1.5em 1em !important;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.action p{
+    margin: 0.5em 1em !important;
+}
+
+.box-info .tick{
+    margin: 0 !important;
+    margin-left: 1.5em !important;
+}
+
+.box-info button{
+    margin-left: 1.5em !important;
+}
+
+.informasi{
+    background: #0D1E46;
+    box-shadow: 0px 16px 32px rgba(0, 7, 46, 0.05);
+    margin-right: 1em;
+}
+
+.informasi p{
+    color: #8292A6;
+}
+
+.action{
+    background: linear-gradient(314.65deg, #854DFD -0.61%, #4DA8FD 100%);
+    box-shadow: 0px 16px 32px rgba(0, 7, 46, 0.05);
+    margin-left: 1em;
+}
+.box-self{
+    background: linear-gradient(314.65deg, #FD4DF6 -0.61%, #FDA14D 100%);
+    box-shadow: 0px 16px 32px rgba(0, 7, 46, 0.05);
+}
+
+.box-support{
+    background: linear-gradient(314.65deg, #4D74FD -0.61%, #4DFDF2 100%);
+    box-shadow: 0px 16px 32px rgba(0, 7, 46, 0.05);
+}
+
+.box-cloud{
+    background: linear-gradient(314.65deg, #907EFD -0.61%, #FD7EF0 100%);
+    box-shadow: 0px 16px 32px rgba(0, 7, 46, 0.05);
+}
+
+.teknis-image{
+    size: 64px;
+    margin: 0 !important;
+    position: center;
+}
+
+/*Accordion*/
+.accordion-item{
+    border: none !important;
+}
+
+.accordion-button{
+    border-left: 2px solid #E5E9F2 !important;
+}
+
+.accordion-button:not(.collapsed)::after, .accordion-button::after{
+    background-image: none !important;
+}
+.accordion-button:not(.collapsed){
+    color: #1B2C42;
+    background: #ffff;
+    box-shadow: none !important;
+    background-image: none !important;
+    border-left: 2px solid #3299FE !important;
+    font-weight: 700;
+}
+
+.accordion-button p{
+    color: #3B4859;
+    font-weight: 500;
+}
+
+.accordion-body div{
+    margin-bottom: 2em !important;
+}
+
+.accordion-item h2, .faq-title h2, .accordion-body h2{
+    color: #1B2C42;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 28px !important;
+}
+
+.accordion-body p{
+    color: #8292A6;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 2.5em;
+    /* margin: 0.5em 0 0.5em 1em!important; */
+}
+
+.right{
+    margin-left: em !important;
+}
+
+/*FAQ*/
+.faq-content{
+    box-shadow: 0px 16px 64px rgba(0, 7, 46, 0.04);
+    border-radius: 15px;
+}
+
+
+.accordion-item-left{
+    border-right: 1px solid rgba(230, 234, 241, 1) !important; 
+}
+
+.faq-title{
+    margin-left: 1em !important;    
+}
+
+
+.faq-button:not(.collapsed){
+    background-color: rgba(50, 153, 254, 0.1) !important;
+    color: #0000 !important;
+}
+
+/*Sub Footer*/
+.sub-footer{
+    border-top-left-radius: 40% 30%;
+    border-top-right-radius: 40% 30%;
+    background: #0D1E46;
+    height: 95vh;
+}
+
+.sub-footer button{
+    margin-right: 0.5em !important;
+}
+
+.side-content{
+    margin-top: 11em !important;
+}
+
+.side-content p{
+    color: #8292A6;
+}
+
+.subscribe{
+    background: linear-gradient(314.65deg, #854DFD -0.61%, #4DA8FD 100%);
+    box-shadow: 0px 16px 64px rgba(0, 7, 46, 0.04);
+    border-radius: 20px;
+    margin-top: -4em !important;
+    position: relative;
+}
+
+.subscribe p{
+    font-weight: 700;
+}
+
+.subscribe form{
+    margin: 1em !important;
+    padding-bottom: 2em !important;
+}
+
+.subscribe p{
+    padding: 1.5em 2em 0 1em !important;
+}
+
+input{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+}
+
+.image img{
+    margin-top: 8em !important;
+    width: 90%;
+}
+
+/*Footer*/
+
+.footer h3{
+    color: #1B2C42;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.logos img, .brand img{
+    margin: 0.25em !important;
+}
+
+.footer{
+    margin-top: 8em !important;
+}
+.footer p{
+    color: #8292A6;
+}
+
+.footer li{
+    color: #8292A6;
+    line-height: 2.5em;
+}
+
+.payment img{
+    width: 60px;
+}
+
+.brand p{
+    margin-top: 0.5em !important;
+}
