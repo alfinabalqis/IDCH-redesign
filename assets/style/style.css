@@ -55,11 +55,6 @@ h1,h2,h3,p{
     border-radius: 8px;
 }
 
-.header{
-    position: relative;
-    display: block;
-    background: #000;
-}
 
 .header-background{
     border-bottom-left-radius: 50% 10%;
@@ -69,7 +64,8 @@ h1,h2,h3,p{
     -webkit-animation: ignielGradient 12s ease infinite;
     -moz-animation: ignielGradient 12s ease infinite;
     animation: ignielGradient 12s ease infinite;
-    height: 115vh;
+    width: 100%;
+    height: 105vh;    
 }
 
 @-webkit-keyframes ignielGradient {
@@ -94,7 +90,7 @@ h1,h2,h3,p{
 
 .server{
     background: #ffff;
-    margin-top: -6em !important;
+    margin-top: -4em !important;
     position: relative;
     z-index: 1;
     border-radius: 10px;
@@ -183,7 +179,7 @@ input:checked + .slider:before {
 }
 
 .paket-server-content{
-    margin-left: 3em !important;
+    margin-left: 3em ;
 }
 
 .paket-server h3{
@@ -205,12 +201,18 @@ input:checked + .slider:before {
     color: #8292A6;
 }
 
+.server-left div p, .server-right p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #3B4859;
+}
+
 .server-right{
     margin-right: 2.5em !important;
 }
 
 .server-right p{
-    margin: 0.25em !important;
+    margin: 0.5em !important;
 }
 
 .price{
@@ -219,7 +221,7 @@ input:checked + .slider:before {
 }
 
 .price h3{
-    padding-left: 2em !important;
+    padding-left: 2em;
 }
 
 .footer-server{
@@ -231,7 +233,7 @@ input:checked + .slider:before {
 }
 
 .footer-server p{
-    color: #3B4859, 100%;
+    color: #3B4859 !important;
 }
 
 /*VPS*/
@@ -347,7 +349,7 @@ input:checked + .slider:before {
     color: #1B2C42;
     font-weight: 700;
     letter-spacing: 0.1em;
-    font-size: 28px !important;
+    font-size: 28px;
 }
 
 .accordion-body p{
@@ -368,8 +370,7 @@ input:checked + .slider:before {
     border-radius: 15px;
 }
 
-
-.accordion-item-left{
+.accordion-heading-faq{
     border-right: 1px solid rgba(230, 234, 241, 1) !important; 
 }
 
@@ -421,13 +422,17 @@ input:checked + .slider:before {
 }
 
 .subscribe p{
-    padding: 1.5em 2em 0 1em !important;
+    padding: 2.5em 2em 0 1.5em !important;
 }
 
-input{
+.form-control{
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(40px);
     border-radius: 10px;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #ffff;
 }
 
 .image img{
@@ -460,9 +465,139 @@ input{
 }
 
 .payment img{
-    width: 60px;
+    width: 50px;
 }
 
 .brand p{
     margin-top: 0.5em !important;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .accordion-item h2, .faq-title h2, .accordion-body h2{
+        font-size: 16px;
+    }
+
+    .btn, .paket-server h3, .form-control::-webkit-input-placeholder, .subscribe p{
+        font-size: 12px;
+    }
+
+    .server-left div p, .paket-server p, .paket-server span, .footer-server p, .subscribe .btn-utama{
+        font-size: 10px;
+    }
+
+    .information, .accordion-item, .accordion-body, .teknis-box, .footer-body, .accepted-payment, .brand, .price{
+        flex-direction: column;
+    }
+
+    .header-background{
+        height: 65vh;
+    }
+
+    .header-banner img{
+        width: 100%;
+        margin-top: -1em;
+    }
+
+    .header-content{
+        margin-top: -2em;
+    }
+
+    .server{
+        margin-top: 0 !important;
+    }
+
+    .paket-server-content{
+        width: 100%;
+        margin: 2em 1em;
+    }
+
+    .paket-server-content div{
+        margin-top: .5em;
+    }
+
+    .paket-server h3{
+        width: 60px;
+    }
+
+    .paket-server P{
+        margin: 0.5em 0 !important;
+        width: 60px
+    }
+
+    .price h3{
+        padding-left: .25em;
+        width: 80px;
+    }
+
+    .price span{
+        margin-top: -2.25em !important;
+        margin-left: 1em;
+    }
+
+    .teknis-box{
+        top: 50% !important;
+        left: 50% !important;
+    }
+
+    .box-info{
+        margin: 0.5em 0;
+    }
+
+    .accordion-heading{
+        border: none !important; 
+        width: 100%;
+    }
+
+    .accordion-body p{
+        letter-spacing: normal;
+        line-height: normal;
+    }
+
+   .sub-footer{
+        height: 80vh;
+    }
+
+    .side-content h1{
+        font-size: 22px;
+    }
+
+    .side-content p{
+        font-size: 12px;
+    }
+
+    .side-content button{
+        height: 40px;
+        width: 40%;
+        margin-bottom: .5em;
+    }
+
+    .sub-footer-content{
+        margin-top: 0;
+    }
+
+    .subscribe .btn-utama{
+        width: 30%;
+        height: auto;
+    }
+
+    .image img{
+        width: 80%;
+    }
+
+    .subscribe{
+        width: 90%;
+        height: auto;
+    }
+
+    .subscribe p{
+        margin-left: 1em;
+    }
+
+    .footer{
+        margin-top: 0 !important;
+    }
 }

@@ -20,13 +20,13 @@
     <!--Header-->
     <div class="header header-background">
         <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light bg-transparent" data-aos="fade-down" data-aos-duration="1000">
+          <nav class="row navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img src="assets/images/idCloudHost-Logo.png" class="d-inline-block align-top" alt="">
                 </a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navb" aria-controls="navb" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
                 </button>
         
                 <div class="collapse navbar-collapse justify-content-center" id="navb">
@@ -53,14 +53,14 @@
                     
                     <!--Mobile Button-->
                     <form class="form-inline d-sm-block d-md-none">
-                        <button class="btn btn-utama my-2 my-sm-0 px-4">
+                        <button class="btn btn-utama my-2 my-sm-0 px-4 border-white">
                             LOGIN
                         </button>
                     </form>
                 </div>
     
                 <!--Dekstop Button-->
-                <form class="form-inline">
+                <form class="form-inline d-none d-md-block">
                     <button class="btn btn-utama my-2 my-sm-0 px-4 border-white">
                         LOGIN
                     </button>
@@ -71,9 +71,9 @@
 
         <div class="container header-content">
           <h1 class="text-center mt-5 mb-3">Virtual Private Server</h1>
-          <p class="text-center mb-5">IDCloudHost Menawarkan Server VPS Murah Indonesia dengan Performa dan Teknologi Multifungsi yang Dapat Diinstall di Semua Sistem Operasi. Berlangganan sekarang dapatkan berbagai kemudahan untuk kebutuhan Server Website & Aplikasi Anda.</p>
-          <div class="header-banner mt-3">
-            <center><img src="assets/images/Banner.png" class="header-banner text-center"></center>
+          <p class="text-center mb-4">IDCloudHost Menawarkan Server VPS Murah Indonesia dengan Performa dan Teknologi Multifungsi yang Dapat Diinstall di Semua Sistem Operasi. Berlangganan sekarang dapatkan berbagai kemudahan untuk kebutuhan Server Website & Aplikasi Anda.</p>
+          <div>
+            <center class="header-banner"><img src="assets/images/Banner.png"></center>
           </div>
         </div>
     </div>
@@ -87,16 +87,16 @@
           <div class="header-server d-flex justify-content-between mb-4 mt-2">
             <div class="server-left d-flex mt-3">
               <button class="btn btn-server"><p class="my-1">SERVER VPS PRO</p></button>
-              <div><p class="my-2 mx-3 ml-4 text-dark">SERVER VPS SAS</p></div>
+              <div><p class="my-2 mx-3 ml-4">SERVER VPS SAS</p></div>
             </div>
 
             <div class="server-right mt-3 d-flex">
-              <p class="gradient my-1 mr-4">Bulan</p>
+              <p class="gradient">Bulan</p>
               <label class="switch">
                 <input type="checkbox">
                 <span class="slider round"></span>
               </label>
-              <p class="my-1 text-dark">Tahun</p>
+              <p>Tahun</p>
             </div>
 
           </div>
@@ -111,7 +111,7 @@
                   <p>CPU</p>
                   <h3>2 Core</h3>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p>Storage Space</p>
                   <h3>30 GB</h3>
                 </div>
@@ -119,8 +119,9 @@
                   <p>Memory</p>
                   <h3>1024 MB</h3>
                 </div>
-                <div class="price col-md-3">
-                  <h3 class="my-4 mx-2 pl-3">Rp 100.000 <span>/bulan</span></h3>
+                <div class="price col-md-3 d-flex">
+                  <h3 class="my-4 mx-2 pl-3">Rp 100.000</h3>
+                  <span class="my-4">/bulan</span>
                 </div>
               </div>
 
@@ -136,7 +137,7 @@
                   <p>CPU</p>
                   <h3>4 Core</h3>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p>Storage Space</p>
                   <h3>60 GB</h3>
                 </div>
@@ -144,8 +145,10 @@
                   <p>Memory</p>
                   <h3>2048 MB</h3>
                 </div>
-                <div class="price col-md-3">
-                  <h3 class="my-4 mx-2 pl-3">Rp 480.000 <span>/bulan</span></h3>
+                
+                <div class="price col-md-3 d-flex">
+                  <h3 class="my-4 mx-2 pl-3">Rp 480.000</h3>
+                  <span class="my-4">/bulan</span>
                 </div>
               </div>
             </div>
@@ -160,7 +163,7 @@
                   <p>CPU</p>
                   <h3>8 Core</h3>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p>Storage Space</p>
                   <h3>60 GB</h3>
                 </div>
@@ -168,8 +171,9 @@
                   <p>Memory</p>
                   <h3>4096 MB</h3>
                 </div>
-                <div class="price col-md-3">
-                  <h3 class="my-4 mx-2 pl-3">Rp 900.000 <span>/bulan</span></h3>
+                <div class="price col-md-3 d-flex">
+                  <h3 class="my-4 mx-2 pl-3">Rp 900.000</h3>
+                  <span class="my-4">/bulan</span>
                 </div>
               </div>
             </div>
@@ -184,7 +188,7 @@
                   <p>CPU</p>
                   <h3>8 Core</h3>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p>Storage Space</p>
                   <h3>100 GB</h3>
                 </div>
@@ -192,8 +196,9 @@
                   <p>Memory</p>
                   <h3>8 GB</h3>
                 </div>
-                <div class="price col-md-3">
-                  <h3 class="my-4 mx-2 pl-3">Rp 1.000.000 <span>/bulan</span></h3>
+                <div class="price col-md-3 d-flex">
+                  <h3 class="my-4 mx-2 pl-3">Rp 1.000.000</h3>
+                  <span class="my-4">/bulan</span>
                 </div>
               </div>
             </div>
@@ -208,7 +213,7 @@
                   <p>CPU</p>
                   <h3>16 Core</h3>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p>Storage Space</p>
                   <h3>200 GB</h3>
                 </div>
@@ -216,8 +221,9 @@
                   <p>Memory</p>
                   <h3>16 GB</h3>
                 </div>
-                <div class="price col-md-3">
-                  <h3 class="my-4 mx-2 pl-3">Rp 1.400.000 <span>/bulan</span></h3>
+                <div class="price col-md-3 d-flex">
+                  <h3 class="my-4 mx-2 pl-3">Rp 1.400.000</h3>
+                  <span class="my-4">/bulan</span>
                 </div>
               </div>
             </div>
@@ -232,7 +238,7 @@
                   <p>CPU</p>
                   <h3>16 Core</h3>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <p>Storage Space</p>
                   <h3>250 GB</h3>
                 </div>
@@ -240,16 +246,17 @@
                   <p>Memory</p>
                   <h3>32 GB</h3>
                 </div>
-                <div class="price col-md-3">
-                  <h3 class="my-4 mx-2 pl-3">Rp 2.000.000 <span>/bulan</span></h3>
+                <div class="price col-md-3 d-flex">
+                  <h3 class="my-4 mx-2 pl-3">Rp 2.000.000</h3>
+                  <span class="my-4">/bulan</span>
                 </div>
               </div>
             </div>
           </div>
           <div class="footer-server mt-3">
             <div class="container">
-              <p class="text-dark"><span>Unlimited Bandwidth</span> untuk semua paket.</p>
-              <p class="text-dark">*VPS Pro Indonesia didukung dengan Teknologi HPE Nimble Storage Adaptive Flash Arrays Terbaru dengan waktu akses 100 kali lebih cepat dan kecepatan I/O yang lebih tinggi dibandingkan VPS SSD dan tingkat kegagalan yang rendah dengan jaminan Uptime 99.99% untuk kebutuhan Website dan Aplikasi</p>
+              <p><span>Unlimited Bandwidth</span> untuk semua paket.</p>
+              <p>*VPS Pro Indonesia didukung dengan Teknologi HPE Nimble Storage Adaptive Flash Arrays Terbaru dengan waktu akses 100 kali lebih cepat dan kecepatan I/O yang lebih tinggi dibandingkan VPS SSD dan tingkat kegagalan yang rendah dengan jaminan Uptime 99.99% untuk kebutuhan Website dan Aplikasi</p>
             </div>
           </div>
         </div>
@@ -257,7 +264,7 @@
       
       <!--Section vps-->
       <div class="container">
-        <div class="vps mt-3 mb-3">
+        <div class="vps mt-4">
           <div class="container d-flex justify-content-between">
             <div class="left-vps d-flex mt-2">
               <div class="">
@@ -276,7 +283,7 @@
       
       <!--Section informasi-->
       <div class="container">
-        <div class="information d-flex justify-content-center mt-5 mb-5">
+        <div class="information d-flex justify-content-center mt-4 mb-5">
           <div class="box box-info informasi">
             <div class="container">
               <h2>Informasi Jaringan</h2>
@@ -334,8 +341,8 @@
       <div class="container">
         <div class="menu mt-5">
           <div class="accordion accordion-shadow" id="accordionExample">
-            <div class="accordion-item d-flex">
-              <div class="accordion-heading">
+            <div class="accordion-item d-flex ">
+              <div class="accordion-heading col-md-2">
                 <a class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Informasi
                 </a>
               </div>
@@ -378,7 +385,7 @@
             </div>
 
             <div class="accordion-item d-flex">
-              <div class="accordion-heading">
+              <div class="accordion-heading col-md-2">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   Fitur - Fitur
                 </button>
@@ -391,7 +398,7 @@
             </div>
 
             <div class="accordion-item d-flex">
-              <div class="accordion-heading ">
+              <div class="accordion-heading col-md-2">
                 <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
                   Perbandingan
                 </a>
@@ -404,7 +411,7 @@
             </div>
 
             <div class="accordion-item d-flex">
-              <div class="accordion-heading">
+              <div class="accordion-heading col-md-2">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
                   Tambahan
                 </button>
@@ -427,7 +434,7 @@
         <div class="bantuan-teknis mt-5">
           <h1 class="text-center text-dark">Pilihan Bantuan Teknis</h1>
           <p class="text-center text-muted">Kami Menyediakan beberapa opsi Manage Service untuk Memudahkan Penggunaan Server VPS Anda</p>
-          <div class="teknis-box d-flex mt-5">
+          <div class="teknis-box d-flex mt-5 justify-content-center">
             <div class="box col-md-4 box-self">
               <center class="mt-4 mb-2"><img src="assets/images/self.png" class="teknis-image"></center>
               <h3 class="teknis-title text-center my-4">Self Manage (Default)</h3>
@@ -455,61 +462,14 @@
           <center><h1 class="gradient">Tanya Jawab</h1></center>
           <p class="text-dark text-center">Pertanyaan yang sering diajukan Terkait Server VPS</p>
           <div class="faq-content mt-5">
-            <div class="accordion accordion-shadow d-flex" id="accordionExample">
-              <div class="accordion-item accordion-item-left col-md-6 pb-5">
-        
-                <div class="accordion-heading">
+            <div class="accordion accordion-shadow" id="accordionExample">
+              <div class="accordion-item d-flex">
+                <div class="accordion-heading accordion-heading-faq col-md-5">
                   <h2 class="pt-4 pb-3 faq-title">FAQ</h2>
                   <a class="accordion-button  faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> <img src="assets/images/faq.svg" alt="">
                     <p class="my-2 ml-4 mx-3">Apa itu Server VPS (Virtual Private Server) ?</p>
                   </a>
                 </div>
-        
-                <div class="accordion-heading">
-                  <a class="accordion-button  faq-button collapsed d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Apa Keuntungan Menggunakan Server VPS ?</p>
-                  </a>
-                </div>
-        
-                <div class="accordion-heading accordion">
-                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Apa Fasilitas atau Fitur yang Diberikan di <br> VPS ?</p>
-                  </a>
-                </div>
-        
-                <div class="accordion-heading accordion">
-                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Siapa yang Cocok Menggunakan Layanan <br> Server VPS ?</p>
-                  </a>
-                </div>
-        
-                <div class="accordion-heading accordion">
-                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Bagaimana Cara Upgrade Server VPS di <br> IDcloudhost ?</p>
-                  </a>
-                </div>
-        
-                <div class="accordion-heading accordion">
-                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"  aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Bagaimana Cara Pindah VPS ke IDcloudhost ?</p>
-                  </a>
-                </div>
-        
-                <div class="accordion-heading accordion">
-                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Bagaimana Jika Saya Membutuhkan Server <br> VPS Custom ?</p>
-                  </a>
-                </div>
-        
-                <div class="accordion-heading accordion">
-                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Bagaimana Jika Membutuhkan Server <br> VPS Manage ?</p>
-                  </a>
-                </div>
-                
-              </div>
-        
-              <div class="accordion-item-right col-md-6">
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <h2 class="mb-4">Apa itu Server VPS (Virtual Private Server ? )</h2>
@@ -517,9 +477,96 @@
                     <p>Hal ini ibarat kamu mempunyai ruangan sendiri sehingga kamu dapat dengan bebas melakukan konfigurasi dan hal lain pada server VPS kamu.</p>
                     <p>Informasi Selengkapnya : Panduan Memilih Server VPS dari IDcloudhost</p>
                   </div>
+                </div>    
+                  </div>
                 </div>
-        
+              </div>
+  
+              <div class="accordion-item d-flex">
+                <div class="accordion-heading accordion-heading-faq col-md-5">
+                  <a class="accordion-button  faq-button collapsed d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne"> <img src="assets/images/faq.svg" alt="">
+                    <p class="my-2 ml-4 mx-3">Apa Keuntungan Menggunakan Server VPS ?</p>
+                  </a>
+                </div>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="accordion-item d-flex">
+                <div class="accordion-heading accordion-heading-faq col-md-5">
+                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
+                    <p class="my-2 ml-4 mx-3">Apa Fasilitas atau Fitur yang Diberikan di <br> VPS ?</p>
+                  </a>
+                </div>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="accordion-item d-flex">
+                <div class="accordion-heading accordion-heading-faq col-md-5">
+                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
+                    <p class="my-2 ml-4 mx-3">Siapa yang Cocok Menggunakan Layanan <br> Server VPS ?</p>
+                  </a>
+                </div>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item d-flex">
+                <div class="accordion-heading accordion-heading-faq col-md-5">
+                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
+                    <p class="my-2 ml-4 mx-3">Bagaimana Cara Upgrade Server VPS di <br> IDcloudhost ?</p>
+                  </a>
+                </div>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item d-flex">
+                <div class="accordion-heading accordion-heading-faq col-md-5">
+                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"  aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
+                    <p class="my-2 ml-4 mx-3">Bagaimana Cara Pindah VPS ke IDcloudhost ?</p>
+                  </a>
+                </div>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item d-flex">
+                <div class="accordion-heading accordion-heading-faq col-md-5">
+                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
+                    <p class="my-2 ml-4 mx-3">Bagaimana Jika Saya Membutuhkan Server <br> VPS Custom ?</p>
+                  </a>
+                </div>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item d-flex">
+                <div class="accordion-heading accordion-heading-faq col-md-5">
+                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
+                    <p class="my-2 ml-4 mx-3">Bagaimana Jika Membutuhkan Server <br> VPS Manage ?</p>
+                  </a>
+                </div>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                   </div>
@@ -531,28 +578,31 @@
       </div>
 
       <div class="sub-footer">
-        <div class="container d-flex mt-5">
-          <div class="side-content col-md-6">
-            <h1 class="gradient">Solusi Sempurna <br> untuk Bisnis Anda</h1>
-            <p class="mt-3">Dalam Waktu 3 Menit, Anda akan mendapatkan semua <br> layanan dengan cepat. Tidak ada kewajiban untuk upgrade, <br> downgrade atau cancel setiap waktu</p>
-            <div class="mt-4">
-              <button class="btn btn-cloud">Buat Private Cloud</button>
-              <button class="btn btn-utama">Hubungi Kami</button>
+        <div class="container mt-5">
+          <div class="sub-footer-content d-flex justify-content-between">
+            <div class="side-content col-md-6">
+              <h1 class="gradient">Solusi Sempurna <br> untuk Bisnis Anda</h1>
+              <p class="mt-3">Dalam Waktu 3 Menit, Anda akan mendapatkan semua <br> layanan dengan cepat. Tidak ada kewajiban untuk upgrade, <br> downgrade atau cancel setiap waktu</p>
+              <div class="mt-4 side-content-button">
+                <button class="btn btn-cloud">Buat Private Cloud</button>
+                <button class="btn btn-utama">Hubungi Kami</button>
+              </div>
+            </div>
+    
+            <div class="col-md-6">
+              <div class="image">
+                <img src="assets/images/idcloudhost 1.png" alt="">
+              </div>
+              <div class="subscribe">
+                <p class="my-1">Subscribe here to get update</p>
+                <form class="d-flex justify-content-between">
+                  <input class="form-control mx-2" type="search" placeholder="Enter email address">
+                  <button class="btn btn-utama " type="submit">SUBSCRIBE</button>
+                </form>
+              </div>
             </div>
           </div>
-  
-          <div class="col-md-6">
-            <div class="image">
-              <img src="assets/images/idcloudhost 1.png" alt="">
-            </div>
-            <div class="subscribe">
-              <p class="my-1">Subscribe here to get update</p>
-              <form class="d-flex justify-content-between">
-                <input class="form-control me-2" type="search" placeholder="Enter email address">
-                <button class="btn btn-utama " type="submit">SUBSCRIBE</button>
-              </form>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -565,7 +615,7 @@
           <p>Virtual Private Server atau Server VPS adalah sebuat tipe server yang menggunakan teknologi Virtualisasi untuk membagi server fisik menjadi beberapa server virtual yang terdiri dari spesifikasi dan fitur tertentu untuk kebutuhan akses data dan informasi untuk website dan aplikasi. Server VPS bisa diibaratkan sebuah kamar kostan yang dihuni oleh kita sendiri sehingga kebutuhan dan isi dari server vps merupakan kelola kita secara penuh. Server VPS Murah dari IDCloudhost menggunakan teknologi HPE Nimble Storage Adaptive Flash Arrays yang merupakan sebuah teknologi paling mutakhir dari Server VPS Indonesia dengan performa yang tidak diragukan lagi secara kualitas dan keamanan dari server VPS ini. Layanan VPS Murah dari IDCloudhost kenapa lebih murah dibandingkan provider lainnya, bukan berarti IDcloudhost mengurangi kualitas dari server VPS, namun VPS ini bersifat unmanage sehingga akan lebih murah dan terjangkau bagi Anda yang membutuhkan Server VPS Indonesia dengan garansi Uptime hingga 99.99%.</p>
           <a href="#">Baca Selengkapnya &#8594;</a>
         </div>
-        <div class="d-flex mt-5 justify-content-between">
+        <div class="footer-body d-flex mt-5 justify-content-between">
           <div class="col-md-6">
             <h3>About IDCH</h3>
             <p>IDCloudHost (PT Cloud Hosting Indonesia) adalah penyedia layanan Web Hosting Provider berbasis SSD Cloud Hosting yang mempunyai tujuan untuk selalu menjaga website tetap hidup dan cepat di akses dari berbagai negara. Saat ini tersedia Beberapa Data Center Utama yang dapat Anda gunakan dengan berlangganan menggunakan layanan Kami.</p>
@@ -614,26 +664,31 @@
 
         <div class="payment mt-3">
           <h3>Accepted Payment Methode</he>
-          <div class="d-flex mt-3">
-            <img src="assets/images/Logo-Visa.png">
-            <img src="assets/images/Logo-Mastercard.png">
-            <img src="assets/images/Logo-ATM-Bersama.png">
-            <img src="assets/images/Logo-BCA.png">
-            <img src="assets/images/Logo-BNI.png">
-            <img src="assets/images/Logo-Bank-BRI.png">
-            <img src="assets/images/Logo-Mandiri.png">
-            <img src="assets/images/Logo-Mandiri-Syariah.png">
-            <img src="assets/images/Logo-CIMB-Niaga.png">
-            <img src="assets/images/Logo-Permata-Bank.png">
-            <img src="assets/images/Logo-Bank-Maybank.png">
-            <img src="assets/images/Logo-Paypal.png">
-            <img src="assets/images/Logo-OVO.png">
-            <img src="assets/images/Logo-GOPAY.png">
-            <img src="assets/images/Logo-Shopeepay.png">
-            <img src="assets/images/logo-Alfamidi.png">
-            <img src="assets/images/Logo-Alfamart.png">
-            <img src="assets/images/Logo-Indomaret.png">
-            <img src="assets/images/Logo-Wester-Union.png">
+          <div class="d-flex mt-3 accepted-payment">
+            <div class="left">
+              <img src="assets/images/Logo-Visa.png">
+              <img src="assets/images/Logo-Mastercard.png">
+              <img src="assets/images/Logo-ATM-Bersama.png">
+              <img src="assets/images/Logo-BCA.png">
+              <img src="assets/images/Logo-BNI.png">
+              <img src="assets/images/Logo-Bank-BRI.png">
+              <img src="assets/images/Logo-Mandiri.png">
+              <img src="assets/images/Logo-Mandiri-Syariah.png">
+              <img src="assets/images/Logo-CIMB-Niaga.png">
+              <img src="assets/images/Logo-Permata-Bank.png">
+            </div>
+
+            <div class="right">
+              <img src="assets/images/Logo-Bank-Maybank.png">
+              <img src="assets/images/Logo-Paypal.png">
+              <img src="assets/images/Logo-OVO.png">
+              <img src="assets/images/Logo-GOPAY.png">
+              <img src="assets/images/Logo-Shopeepay.png">
+              <img src="assets/images/logo-Alfamidi.png">
+              <img src="assets/images/Logo-Alfamart.png">
+              <img src="assets/images/Logo-Indomaret.png">
+              <img src="assets/images/Logo-Wester-Union.png">
+            </div>
           </div>
         </div>
         <div class="brand d-flex justify-content-between mt-3">
