@@ -558,7 +558,7 @@ input:checked + .slider:before {
     }
 
    .sub-footer{
-        height: 80vh;
+        height: 60vh;
     }
 
     .side-content h1{
@@ -570,8 +570,8 @@ input:checked + .slider:before {
     }
 
     .side-content button{
-        height: 40px;
-        width: 80%;
+        height: auto;
+        width: 100%;
         margin-bottom: .5em;
     }
 
