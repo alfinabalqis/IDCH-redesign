@@ -489,12 +489,12 @@ input:checked + .slider:before {
         font-size: 10px;
     }
 
-    .information, .accordion-item, .accordion-body, .teknis-box, .footer-body, .accepted-payment, .brand, .price, .server-left, .side-content-button{
+    .information, .accordion-item, .accordion-body, .teknis-box, .footer-body, .accepted-payment, .brand, .price, .server-left, .side-content-button, .sub-footer-content{
         flex-direction: column;
     }
 
-    .header-background{
-        height: 60vh;
+   .sub-footer, .header-background{
+        height: 70vh;
     }
 
     .header-banner img{
@@ -539,7 +539,7 @@ input:checked + .slider:before {
     }
 
     .vps p {
-        margin-top: 0 !important;
+        margin-top: 2em !important;
         margin-left: 1em !important;
     }
 
@@ -557,10 +557,6 @@ input:checked + .slider:before {
         line-height: normal;
     }
 
-   .sub-footer{
-        height: 60vh;
-    }
-
     .side-content h1{
         font-size: 22px;
     }
@@ -571,7 +567,7 @@ input:checked + .slider:before {
 
     .side-content button{
         height: auto;
-        width: 100%;
+        width: 50%;
         margin-bottom: .5em;
     }
 
