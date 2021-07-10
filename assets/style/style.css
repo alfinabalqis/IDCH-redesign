@@ -489,7 +489,7 @@ input:checked + .slider:before {
         font-size: 10px;
     }
 
-    .information, .accordion-item, .accordion-body, .teknis-box, .footer-body, .accepted-payment, .brand, .price{
+    .information, .accordion-item, .accordion-body, .teknis-box, .footer-body, .accepted-payment, .brand, .price, .server-left, .side-content-button{
         flex-direction: column;
     }
 
@@ -538,11 +538,6 @@ input:checked + .slider:before {
         margin-left: 1em;
     }
 
-    .teknis-box{
-        top: 50% !important;
-        left: 50% !important;
-    }
-
     .box-info{
         margin: 0.5em 0;
     }
@@ -571,7 +566,7 @@ input:checked + .slider:before {
 
     .side-content button{
         height: 40px;
-        width: 40%;
+        width: 80%;
         margin-bottom: .5em;
     }
 
@@ -580,7 +575,7 @@ input:checked + .slider:before {
     }
 
     .subscribe .btn-utama{
-        width: 30%;
+        width: 40%;
         height: auto;
     }
 
