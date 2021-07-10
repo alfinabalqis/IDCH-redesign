@@ -507,7 +507,7 @@ input:checked + .slider:before {
     }
 
     .server{
-        margin-top: 0 !important;
+        margin-top: -1em !important;
     }
 
     .paket-server-content{
