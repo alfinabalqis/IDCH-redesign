@@ -481,7 +481,7 @@ input:checked + .slider:before {
         font-size: 16px;
     }
 
-    .btn, .paket-server h3, .form-control::-webkit-input-placeholder, .subscribe p{
+    .btn, .paket-server h3, .form-control::-webkit-input-placeholder, .subscribe, .vps p{
         font-size: 12px;
     }
 
@@ -494,7 +494,7 @@ input:checked + .slider:before {
     }
 
     .header-background{
-        height: 65vh;
+        height: 50vh;
     }
 
     .header-banner img{
@@ -520,12 +520,12 @@ input:checked + .slider:before {
     }
 
     .paket-server h3{
-        width: 60px;
+        width: 50px;
     }
 
     .paket-server P{
         margin: 0.5em 0 !important;
-        width: 60px
+        width: 50px
     }
 
     .price h3{
@@ -536,6 +536,11 @@ input:checked + .slider:before {
     .price span{
         margin-top: -2.25em !important;
         margin-left: 1em;
+    }
+
+    .vps p {
+        margin-top: -.5em !important;
+        margin-left: 1em !important;
     }
 
     .box-info{
@@ -568,10 +573,6 @@ input:checked + .slider:before {
         height: 40px;
         width: 80%;
         margin-bottom: .5em;
-    }
-
-    .sub-footer-content{
-        margin-top: 0;
     }
 
     .subscribe .btn-utama{
