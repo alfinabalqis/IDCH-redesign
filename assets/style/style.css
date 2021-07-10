@@ -494,7 +494,7 @@ input:checked + .slider:before {
     }
 
     .header-background{
-        height: 50vh;
+        height: 60vh;
     }
 
     .header-banner img{
@@ -539,7 +539,7 @@ input:checked + .slider:before {
     }
 
     .vps p {
-        margin-top: -.5em !important;
+        margin-top: 0 !important;
         margin-left: 1em !important;
     }
 
