@@ -489,12 +489,12 @@ input:checked + .slider:before {
         font-size: 10px;
     }
 
-    .information, .accordion-item, .accordion-body, .teknis-box, .footer-body, .accepted-payment, .brand, .price, .server-left, .side-content-button, .sub-footer-content{
+    .information, .accordion-item, .accordion-body, .teknis-box, .footer-body, .accepted-payment, .brand, .price, .server-left, .side-content-button{
         flex-direction: column;
     }
 
    .sub-footer, .header-background{
-        height: 70vh;
+        height: 65vh;
     }
 
     .header-banner img{
@@ -567,7 +567,7 @@ input:checked + .slider:before {
 
     .side-content button{
         height: auto;
-        width: 50%;
+        width: 100%;
         margin-bottom: .5em;
     }
 
