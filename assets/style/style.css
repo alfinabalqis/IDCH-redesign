@@ -397,7 +397,7 @@ input:checked + .slider:before {
 }
 
 .side-content{
-    margin-top: 11em !important;
+    margin-top: 11em;
 }
 
 .side-content p{
@@ -557,6 +557,10 @@ input:checked + .slider:before {
         line-height: normal;
     }
 
+    .side-content{
+        margin-top: 5em !important;
+    }
+
     .side-content h1{
         font-size: 22px;
     }
@@ -577,6 +581,7 @@ input:checked + .slider:before {
     }
 
     .image img{
+        margin-top: 5em;
         width: 80%;
     }
 
