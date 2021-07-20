@@ -340,15 +340,17 @@
       <!--Section menu informasi dll-->
       <div class="container">
         <div class="menu mt-5">
-          <div class="accordion accordion-shadow">
-            <div class="accordion-item d-flex ">
-              <div class="accordion-heading col-md-2">
-                <a class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Informasi
-                </a>
-              </div>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body d-flex justify-content-between">
-                  <div class="left col-md-6 mr-2">
+          <div class="d-flex align-items-start">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Informasi</button>
+              <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Fitur - Fitur</button>
+              <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Perbandingan</button>
+              <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Tambahan</button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <div class="d-flex justify-content-around tab-info">
+                  <div class="left col-md-6">
                     <div>
                       <h2>Pengertian VPS </h2>
                       <p>Server VPS (Virtual Private Server) adalah sebuah metode membagi sumber daya (resource) pada sebuah physical server menjadi beberapa Virtual Server (Virtual Machines). VPS sering juga disebut sebagai teknologi server side tentang sistem operasi dan perangkat lunak yang memungkinkan sebuah mesin dengan kapasitas besar dibagi ke beberapa virtual mesin. Tiap virtual mesin ini melayani sistem operasi dan perangkat lunak secara mandiri dan dengan konfigurasi yang cepat. Yuk berlangganan sekarang menggunakan layanan VPS Murah Indonesia dari IDCloudHost!</p>
@@ -366,7 +368,7 @@
                       <p>Anda bisa melakukan request untuk kebutuhan layanan server VPS Murah Indonesia untuk website dan aplikasi Anda di IDCloudHost. Silakan mengisi formulir kebutuhan layanan dimana nantinya informasi paket layanan Anda akan dikirimkan melalui Email / Telpon. Silakan mengisi Formulir Request Layanan IDCloudHost pada link berikut : <a href="https://idcloudhost.com/panduan/penawaran/">https://idcloudhost.com/panduan/penawaran/</a></p>
                     </div>
                   </div>
-                  <div class="right col-md-6 ml-2">
+                  <div class="right col-md-5 ml-5">
                     <div>
                       <h2>Prosesor Terbaik dan Terhandal</h2>
                       <p>VPS Pro Indonesia dengan HPE Nimble Storage Adaptive Flash Arrays didukung oleh prosessor Intel(R) Xeon(R) Platinum 8176 CPU @ 2.10GHz terbaru sehingga akan membuat performa server VPS Anda akan lebih cepat, Aman, Akurat, dan mempunyai daya tahan yang tinggi. Kami dapat menjamin Server VPS anda dengan garansi uptime hingga 99.99%.</p>
@@ -382,47 +384,16 @@
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="accordion-item d-flex">
-              <div class="accordion-heading col-md-2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Fitur - Fitur
-                </button>
+              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
               </div>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </div>
+              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti minima culpa deleniti ea omnis sit ullam nihil ut optio id reprehenderit aut, debitis veritatis odio voluptatem asperiores officiis placeat tempora.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti minima culpa deleniti ea omnis sit ullam nihil ut optio id reprehenderit aut, debitis veritatis odio voluptatem asperiores officiis placeat tempora.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti minima culpa deleniti ea omnis sit ullam nihil ut optio id reprehenderit aut, debitis veritatis odio voluptatem asperiores officiis placeat tempora.</p>
+              </div>
+              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
               </div>
             </div>
-
-            <div class="accordion-item d-flex">
-              <div class="accordion-heading col-md-2">
-                <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
-                  Perbandingan
-                </a>
-              </div>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item d-flex">
-              <div class="accordion-heading col-md-2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
-                  Tambahan
-                </button>
-              </div>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </div>
-              </div>
-            </div>
-            
           </div>
         </div>
       </div>
@@ -462,114 +433,56 @@
           <center><h1 class="gradient">Tanya Jawab</h1></center>
           <p class="text-dark text-center">Pertanyaan yang sering diajukan Terkait Server VPS</p>
           <div class="faq-content mt-5">
-            <div class="accordion accordion-shadow" id="accordionExample">
-              <h2 class="pt-4 pb-3 faq-title">FAQ</h2>
-              <div class="accordion-item d-flex">
-                <div class="accordion-heading accordion-heading-faq col-md-5">
-                  <a class="accordion-button  faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Apa itu Server VPS (Virtual Private Server) ?</p>
-                  </a>
+            <div class="d-flex align-items-start">
+              <div class="nav flex-column nav-pills me-3 nav-faq col-md-5" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <div class="faq-title">
+                  <h2>FAQ</h2>
                 </div>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <h2 class="mb-4">Apa itu Server VPS (Virtual Private Server ? )</h2>
-                    <p>Server VPS atau Virtual Private Server merupakan suatu sistem yang terbagi menjadi beberapa Virtual Machines. Sehingga hal ini memungkinkan pengguna untuk dapat melakukan instal sistem operasi sendiri pada server VPS.</p>
-                    <p>Hal ini ibarat kamu mempunyai ruangan sendiri sehingga kamu dapat dengan bebas melakukan konfigurasi dan hal lain pada server VPS kamu.</p>
-                    <p>Informasi Selengkapnya : Panduan Memilih Server VPS dari IDcloudhost</p>
-                  </div>
-                </div>    
-                  </div>
-                </div>
-              </div>
-  
-              <div class="accordion-item d-flex">
-                <div class="accordion-heading accordion-heading-faq col-md-5">
-                  <a class="accordion-button  faq-button collapsed d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Apa Keuntungan Menggunakan Server VPS ?</p>
-                  </a>
-                </div>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="accordion-item d-flex">
-                <div class="accordion-heading accordion-heading-faq col-md-5">
-                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Apa Fasilitas atau Fitur yang Diberikan di <br> VPS ?</p>
-                  </a>
-                </div>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="accordion-item d-flex">
-                <div class="accordion-heading accordion-heading-faq col-md-5">
-                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Siapa yang Cocok Menggunakan Layanan <br> Server VPS ?</p>
-                  </a>
-                </div>
-                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                  </div>
-                </div>
+                <button class="nav-link active d-flex" id="v-pills-server-tab" data-bs-toggle="pill" data-bs-target="#v-pills-server" type="button" role="tab" aria-controls="v-pills-server" aria-selected="true">
+                  <div><img src="assets/images/faq.svg" class="my-2"></div>
+                  <div><p class="my-2 ml-4 mx-3">Apa itu Server VPS (Virtual Private Server) ?</p></div>
+                </button>
+
+                <button class="nav-link d-flex" id="v-pills-how-tab" data-bs-toggle="pill" data-bs-target="#v-pills-how" type="button" role="tab" aria-controls="v-pills-how" aria-selected="false">
+                  <div><img src="assets/images/faq.svg" class="my-2"></div>
+                  <div><p class="my-2 ml-4 mx-3">Apa Keuntungan Menggunakan Server VPS ?</p></div>
+                </button>
+                <button class="nav-link d-flex" id="v-pills-how-tab" data-bs-toggle="pill" data-bs-target="#v-pills-how" type="button" role="tab" aria-controls="v-pills-how" aria-selected="false">
+                  <div><img src="assets/images/faq.svg" class="my-2"></div>
+                  <div><p class="my-2 ml-4 mx-3">Apa Fasilitas atau Fitur yang Diberikan di <br> VPS ?</p></div>
+                </button>
+                <button class="nav-link d-flex" id="v-pills-how-tab" data-bs-toggle="pill" data-bs-target="#v-pills-how" type="button" role="tab" aria-controls="v-pills-how" aria-selected="false">
+                  <div><img src="assets/images/faq.svg" class="my-2"></div>
+                  <div><p class="my-2 ml-4 mx-3">Siapa yang Cocok Menggunakan Layanan <br> Server VPS ?</p></div>
+                </button>
+                <button class="nav-link d-flex" id="v-pills-how-tab" data-bs-toggle="pill" data-bs-target="#v-pills-how" type="button" role="tab" aria-controls="v-pills-how" aria-selected="false">
+                  <div><img src="assets/images/faq.svg" class="my-2"></div>
+                  <div><p class="my-2 ml-4 mx-3">Bagaimana Cara Upgrade Server VPS di <br> IDcloudhost ?</p></div>
+                </button>
+                <button class="nav-link d-flex" id="v-pills-how-tab" data-bs-toggle="pill" data-bs-target="#v-pills-how" type="button" role="tab" aria-controls="v-pills-how" aria-selected="false">
+                  <div><img src="assets/images/faq.svg" class="my-2"></div>
+                  <div><p class="my-2 ml-4 mx-3">Bagaimana Cara Pindah VPS ke IDcloudhost ?</p></div>
+                </button>
+                <button class="nav-link d-flex" id="v-pills-how-tab" data-bs-toggle="pill" data-bs-target="#v-pills-how" type="button" role="tab" aria-controls="v-pills-how" aria-selected="false">
+                  <div><img src="assets/images/faq.svg" class="my-2"></div>
+                  <div><p class="my-2 ml-4 mx-3">Bagaimana Jika Saya Membutuhkan Server <br> VPS Custom ?</p></div>
+                </button>
+                <button class="nav-link d-flex" id="v-pills-how-tab" data-bs-toggle="pill" data-bs-target="#v-pills-how" type="button" role="tab" aria-controls="v-pills-how" aria-selected="false">
+                  <div><img src="assets/images/faq.svg" class="my-2"></div>
+                  <div><p class="my-2 ml-4 mx-3">Bagaimana Jika Membutuhkan Server <br> VPS Manage ?</p></div>
+                </button>
               </div>
 
-              <div class="accordion-item d-flex">
-                <div class="accordion-heading accordion-heading-faq col-md-5">
-                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Bagaimana Cara Upgrade Server VPS di <br> IDcloudhost ?</p>
-                  </a>
+              <div class="tab-content faq-tab-content mt-3" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-server" role="tabpanel" aria-labelledby="v-pills-server-tab">
+                  <h2 class="mb-4">Apa itu Server VPS (Virtual Private Server ? )</h2>
+                  <p>Server VPS atau Virtual Private Server merupakan suatu sistem yang terbagi menjadi beberapa Virtual Machines. Sehingga hal ini memungkinkan pengguna untuk dapat melakukan instal sistem operasi sendiri pada server VPS.</p>
+                  <p>Hal ini ibarat kamu mempunyai ruangan sendiri sehingga kamu dapat dengan bebas melakukan konfigurasi dan hal lain pada server VPS kamu.</p>
+                  <p>Informasi Selengkapnya : Panduan Memilih Server VPS dari IDcloudhost</p>
                 </div>
-                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item d-flex">
-                <div class="accordion-heading accordion-heading-faq col-md-5">
-                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"  aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Bagaimana Cara Pindah VPS ke IDcloudhost ?</p>
-                  </a>
-                </div>
-                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item d-flex">
-                <div class="accordion-heading accordion-heading-faq col-md-5">
-                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Bagaimana Jika Saya Membutuhkan Server <br> VPS Custom ?</p>
-                  </a>
-                </div>
-                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item d-flex">
-                <div class="accordion-heading accordion-heading-faq col-md-5">
-                  <a class="accordion-button collapsed faq-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true"> <img src="assets/images/faq.svg" alt="">
-                    <p class="my-2 ml-4 mx-3">Bagaimana Jika Membutuhkan Server <br> VPS Manage ?</p>
-                  </a>
-                </div>
-                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                  </div>
+                <div class="tab-pane fade" id="v-pills-how" role="tabpanel" aria-labelledby="v-pills-how-tab">
+                  <h2 class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 </div>
               </div>
             </div>
@@ -701,14 +614,8 @@
         </div>
       </div>
     </div>
-    
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="assets/js/main.js"></script>
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>

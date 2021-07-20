@@ -316,7 +316,7 @@ input:checked + .slider:before {
 }
 
 /*Accordion*/
-.accordion-item{
+/* .accordion-item{
     border: none !important;
 }
 
@@ -334,59 +334,45 @@ input:checked + .slider:before {
     background-image: none !important;
     border-left: 2px solid #3299FE !important;
     font-weight: 700;
+} */
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #1B2C42;
+    background: #ffff;
+    box-shadow: none !important;
+    background-image: none !important;
+    border-left: 2px solid #3299FE !important;
+    font-weight: 700;
 }
 
-.accordion-button p{
+.nav-pills .nav-link {
+    border-left: 2px solid #E5E9F2;
+    border-radius: 0 !important;
+}
+
+.nav-link p, .nav-link{
     color: #3B4859;
     font-weight: 500;
+    text-align: left;
 }
-
-#collapseTwo{
-    margin-top: -5em;
-}
-
-#collapseThree{
-    margin-top: -8.5em;
-}
-
-#collapseFour{
-    margin-top: -13em;
-}
-
-#collapseFive{
-    margin-top: -22em;
-}
-#collapseSix{
-    margin-top: -28em;
-}
-#collapseSeven{
-    margin-top: -33em;
-}
-#collapseEight{
-    margin-top: -39em;
-}
-
+/* 
 .accordion-body div{
     margin-bottom: 2em !important;
-}
+} */
 
-.accordion-item h2, .faq-title, .accordion-body h2{
+.faq-title, .tab-pane h2{
     color: #1B2C42;
     font-weight: 700;
     letter-spacing: 0.1em;
     font-size: 28px;
 }
 
-.accordion-body p{
+.tab-pane p{
     color: #8292A6;
     font-weight: 400;
     letter-spacing: 0.05em;
     line-height: 2.5em;
-    /* margin: 0.5em 0 0.5em 1em!important; */
-}
-
-.right{
-    margin-left: em !important;
+    margin-bottom: 2em;
 }
 
 /*FAQ*/
@@ -395,23 +381,30 @@ input:checked + .slider:before {
     border-radius: 15px;
 }
 
-.faq-content.accordion-body{
-    margin-top: -5em;
+
+.faq-title h2{
+    margin: .75em !important;  
+    color: #1B2C42;
 }
 
-.accordion-heading-faq{
-    border-right: 1px solid rgba(230, 234, 241, 1) !important; 
+.nav-faq{
+    border-right: 1px solid #E5E9F2 !important;
 }
 
-.faq-title{
-    margin-left: 1em !important;    
+.faq-tab-content{
+    margin-right: 1.5em;
 }
 
-
-.faq-button:not(.collapsed){
+.faq-content .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: rgba(50, 153, 254, 0.1) !important;
     color: #0000 !important;
 }
+
+/* 
+.faq-button:not(.collapsed){
+    background-color: rgba(50, 153, 254, 0.1) !important;
+    color: #0000 !important;
+} */
 
 /*Sub Footer*/
 .sub-footer{
@@ -506,11 +499,11 @@ input:checked + .slider:before {
         overflow-x: hidden;
     }
 
-    .accordion-item h2, .faq-title h2, .accordion-body h2{
+    .faq-title h2, .tab-pane h2{
         font-size: 16px;
     }
 
-    .btn, .paket-server h3, .form-control::-webkit-input-placeholder, .subscribe, .vps p{
+    .btn, .paket-server h3, .form-control::-webkit-input-placeholder, .subscribe, .vps p, .tab-pane p, .nav-pills button{
         font-size: 12px;
     }
 
@@ -518,7 +511,7 @@ input:checked + .slider:before {
         font-size: 10px;
     }
 
-    .information, .accordion-item, .accordion-body, .teknis-box, .footer-body, .accepted-payment, .brand, .price, .side-content-button, .header-server{
+    .information, .teknis-box, .footer-body, .accepted-payment, .brand, .price, .side-content-button, .header-server, .tab-info{
         flex-direction: column;
     }
 
@@ -536,7 +529,7 @@ input:checked + .slider:before {
     }
 
     .server{
-        margin-top: -8em !important;
+        margin-top: 0 !important;
     }
 
     .paket-server-content{
@@ -576,22 +569,13 @@ input:checked + .slider:before {
         margin: 0.5em 0;
     }
 
-    .accordion-heading{
-        border: none !important; 
-        width: 100%;
-    }
-
-    .accordion-body p{
-        letter-spacing: normal;
-        line-height: normal;
-    }
-
-    #collapseTwo, #collapseThree, #collapseFour, #collapseFive, #collapseSix, #collapseSeven, #collapseEight{
-        margin-top: 0 !important;
+    button img{
+        padding-top: 2em !important;
     }
 
     .side-content{
-        margin-top: 8em !important;
+        margin-top: 6em !important;
+        margin-right: 2em !important;
     }
 
     .side-content h1{
